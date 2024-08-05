@@ -23,13 +23,6 @@
         } else if (currentUrl.hostname === 'www.youtube.com' || currentUrl.hostname === 'youtube.com' || currentUrl.hostname === 'm.youtube.com') {
 
         const pathMappings = {
-            '/watch': '/watch',
-            '/shorts': '/shorts',
-            '/playlist': '/playlist',
-            '/channel': '/channel',
-            '/@': '/@',
-            '/results': '/results',
-            '/embed': '/embed',
             '/': '/'
         };
 
