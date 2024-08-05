@@ -57,22 +57,6 @@ Before installing the userscript, you need to have Violent Monkey or another use
    - Click the puzzle piece icon (Extensions) in the top right corner.
    - Find Violent Monkey and click the pin icon next to it.
 
-### For Safari (MacOS)
-
-1. **Open Safari**:
-   Launch Safari on your Mac.
-
-2. **Go to the Safari Extensions Gallery**:
-   Search for Tampermonkey as Violent Monkey is not available for Safari.
-
-3. **Download and Install Tampermonkey**:
-   Follow the installation instructions provided.
-
-4. **Pin to Toolbar**:
-   - Click on the "View" menu in the top menu bar.
-   - Choose "Customize Toolbar."
-   - Drag the Tampermonkey icon to your toolbar area and click "Done."
-
 ## 2. Install `redirect-youtube-to-piped` Userscript
 
 ### Step-by-Step Instructions
