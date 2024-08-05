@@ -17,7 +17,7 @@
     let newUrl;
 
     if (currentUrl.hostname === 'youtu.be') {
-        const linkId = currentUrl.pathname.substring(1); // Extract the short link ID
+        const linkId = currentUrl.pathname.substring(1); 
         newUrl = linkId ? `https://piped.video/${linkId}` : 'https://piped.video/trending';
 
         } else if (currentUrl.hostname === 'www.youtube.com' || currentUrl.hostname === 'youtube.com' || currentUrl.hostname === 'm.youtube.com') {
