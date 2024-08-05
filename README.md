@@ -8,34 +8,19 @@ To install the userscript you need to install violentmonkey extensions
 
 https://violentmonkey.github.io/get-it/
 
+make sure you pin the violentmonkey extensions to toolbar
+
 ### Step-by-Step Instructions
 
-1. **Open Your Userscript Manager**:
-   - Click the Violent Monkey icon in your browser’s toolbar.
-   - Select “Dashboard” to open the Violent Monkey dashboard.
+1. **open violent monkey on toolbar in browser**
 
-2. **Add the Userscript**:
-   - Click the "Add a new script" button (usually a "+" icon) in Violent Monkey.
+2. **open settings icons (buttons)**
 
-3. **Copy and Paste the Script**:
-   - Copy the userscript code from the script file or repository you have access to.
-   - Paste the code into the editor that opens in Violent Monkey.
-   - Save the script by clicking "File" and then "Save" or pressing the save button.
+3. **click "+" icons**
 
-4. **Verify Installation**:
-   - Return to the Violent Monkey dashboard.
-   - Ensure `redirect-youtube-to-piped` appears among your installed userscripts.
+4. **click "Install from URL" button**
 
-5. **Configure the Userscript (if necessary)**:
-   - Check the script’s settings in Violent Monkey if there are any configurable options.
-
-## 3. Test the Userscript
-
-1. **Open YouTube**:
-   - Visit YouTube and click on any video link.
-
-2. **Check the Redirection**:
-   - The link should automatically redirect you to Piped instead of YouTube.
+5. **input the url**  
 
 ## Troubleshooting
 
