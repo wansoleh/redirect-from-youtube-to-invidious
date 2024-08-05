@@ -12,7 +12,7 @@
 (function() {
     'use strict';
     const currentUrl = new URL(window.location.href);
-    const baseUrl = 'https://yewtu.be/';
+    const baseUrl = 'https://yewtu.be';
     let newUrl = baseUrl;
     if (currentUrl.hostname === 'youtu.be') {
         newUrl += `/${currentUrl.pathname.substring(1)}`;
