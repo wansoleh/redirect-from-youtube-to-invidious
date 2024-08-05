@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Redirect to Piped
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Redirect various YouTube URLs to piped.video
 // @match        *://www.youtube.com/*
 // @match        *://youtube.com/*
@@ -30,7 +30,7 @@
             '/@': '/@',
             '/results': '/results',
             '/embed': '/embed',
-            '/': '/',
+            '/': '/'
         };
 
         let foundMapping = false;
