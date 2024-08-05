@@ -1,0 +1,54 @@
+// ==UserScript==
+// @name         YouTube Redirect to Piped
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Redirect various YouTube URLs to piped.video
+// @match        *://www.youtube.com/*
+// @match        *://youtube.com/*
+// @match        *://youtu.be/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    const currentUrl = new URL(window.location.href);
+    let newUrl;
+
+    // Redirect for short YouTube links (youtu.be)
+    if (currentUrl.hostname === 'youtu.be') {
+        const linkId = currentUrl.pathname.substring(1); // Extract the short link ID
+        newUrl = linkId ? `https://piped.video/${linkId}` : 'https://piped.video/trending';
+
+        } else if (currentUrl.hostname === 'www.youtube.com' || currentUrl.hostname === 'youtube.com') {
+        // Define path mappings to Piped
+        const pathMappings = {
+            '/watch': '/watch',
+            '/shorts': '/shorts',
+            '/playlist': '/playlist',
+            '/channel/': '/channel/',
+            '/@': '/@'
+        };
+
+        let foundMapping = false;
+
+        // Check for path mappings
+        for (const [key, value] of Object.entries(pathMappings)) {
+            if (currentUrl.pathname.startsWith(key)) {
+                newUrl = `https://piped.video${value}${currentUrl.pathname.substring(key.length)}${currentUrl.search}`;
+                foundMapping = true;
+                break;
+            }
+        }
+
+        // Default to trending page if no specific path is matched
+        if (!foundMapping) {
+            newUrl = 'https://piped.video/trending';
+        }
+    }
+
+    // Perform the redirect
+    if (newUrl) {
+        window.location.href = newUrl;
+    }
+})();
