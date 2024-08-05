@@ -1,14 +1,14 @@
 # demonstrations
 
-https://github.com/wansoleh/redirect-from-youtube-to-piped/raw/main/Videos/mobizen_20240806_025223.mp4
+https://github.com/wansoleh/redirect-from-youtube-to-invidious/raw/main/Videos/mobizen_20240806_025223.mp4
 
-# what is piped
+# what is invidious
 
-Piped is an open-source, privacy-focused alternative front-end for YouTube.
+invidious is an open-source, privacy-focused alternative front-end for YouTube.
 
-# redirect from youtube to piped
+# redirect from youtube to invidious
 
-simple violentmonkey script to redirect from youtube to piped
+simple violentmonkey script to redirect from youtube to invidious
 
 # Installations 
 
@@ -28,7 +28,7 @@ make sure you pin the violentmonkey extensions to toolbar
 
 4. **click "Install from URL" Buttons**
 
-5. **copy this url https://raw.githubusercontent.com/wansoleh/redirect-from-youtube-to-piped/main/youtube-redirect-to-piped.user.js and paste it**
+5. **copy this url https://raw.githubusercontent.com/wansoleh/redirect-from-youtube-to-invidious/main/youtube-redirect-to-invidious.user.js and paste it**
 
 6. **click OK Buttons**
 
@@ -41,8 +41,8 @@ make sure you pin the violentmonkey extensions to toolbar
   - Check for any errors in the Violent Monkey dashboard.
 
 - **Script Conflicts**:
-  - Ensure no other userscripts or browser extensions are conflicting with the `redirect-youtube-to-piped` script.
+  - Ensure no other userscripts or browser extensions are conflicting with the `redirect-youtube-to-invidious` script.
 
 ## Conclusion
-You have successfully installed the `redirect-youtube-to-piped` userscript using Violent Monkey. Enjoy a more privacy-conscious YouTube experience with Piped!
+You have successfully installed the `redirect-youtube-to-invidious` userscript using Violent Monkey. Enjoy a more privacy-conscious YouTube experience with invidious!
 
