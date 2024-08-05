@@ -29,7 +29,7 @@
             '/channel/': '/channels',
             '/@': '/@',
             '/results': '/results',
-            '/embed': '/embed'
+            '/embed': '/embed',
         };
 
         let foundMapping = false;
