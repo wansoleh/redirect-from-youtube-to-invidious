@@ -30,7 +30,7 @@
             '/@': '/@',
             '/results': '/results',
             '/embed': '/embed',
-            '/': '/'
+            '/': '/',
         };
 
         let foundMapping = false;
