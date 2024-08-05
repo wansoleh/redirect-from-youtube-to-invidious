@@ -132,5 +132,3 @@ Before installing the userscript, you need to have Violent Monkey or another use
 ## Conclusion
 You have successfully installed the `redirect-youtube-to-piped` userscript using Violent Monkey. Enjoy a more privacy-conscious YouTube experience with Piped!
 
-For additional assistance, refer to the Violent Monkey [documentation](https://violentmonkey.github.io/) or check the userscript’s support resources.
-
