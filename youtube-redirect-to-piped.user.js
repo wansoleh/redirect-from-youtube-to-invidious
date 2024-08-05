@@ -26,7 +26,7 @@
             '/watch': '/watch',
             '/shorts': '/shorts',
             '/playlist': '/playlist',
-            '/channels': '/channels',
+            '/channel': '/channel',
             '/@': '/@',
             '/results': '/results',
             '/embed': '/embed'
