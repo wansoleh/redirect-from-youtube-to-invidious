@@ -14,34 +14,17 @@
     'use strict';
 
     const currentUrl = new URL(window.location.href);
-    let newUrl;
+    const baseUrl = 'https://piped.video';
+
+    let newUrl = baseUrl;
 
     if (currentUrl.hostname === 'youtu.be') {
-        const linkId = currentUrl.pathname.substring(1); 
-        newUrl = linkId ? `https://piped.video/${linkId}` : 'https://piped.video/trending';
-
-        } else if (currentUrl.hostname === 'www.youtube.com' || currentUrl.hostname === 'youtube.com' || currentUrl.hostname === 'm.youtube.com') {
-
-        const pathMappings = {
-            '/': '/'
-        };
-
-        let foundMapping = false;
-
-        for (const [key, value] of Object.entries(pathMappings)) {
-            if (currentUrl.pathname.startsWith(key)) {
-                newUrl = `https://piped.video${value}${currentUrl.pathname.substring(key.length)}${currentUrl.search}`;
-                foundMapping = true;
-                break;
-            }
-        }
-
-        if (!foundMapping) {
-            newUrl = 'https://piped.video/trending';
-        }
+        newUrl += `/${currentUrl.pathname.substring(1)}`;
+    } else if (['www.youtube.com', 'youtube.com', 'm.youtube.com'].includes(currentUrl.hostname)) {
+        newUrl += currentUrl.pathname === '/' ? '/' : `${currentUrl.pathname}${currentUrl.search}`;
+    } else {
+        newUrl += '/trending';
     }
 
-    if (newUrl) {
-        window.location.href = newUrl;
-    }
+    window.location.href = newUrl;
 })();
