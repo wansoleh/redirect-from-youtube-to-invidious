@@ -26,8 +26,9 @@
             '/watch': '/watch',
             '/shorts': '/shorts',
             '/playlist': '/playlist',
-            '/channel/': '/channel/',
+            '/channel/': '/channel',
             '/@': '/@'
+            '/results': '/results',
         };
 
         let foundMapping = false;
