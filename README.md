@@ -1,3 +1,7 @@
+# what is piped
+
+Piped is an open-source, privacy-focused alternative front-end for YouTube.
+
 # redirect from youtube to piped
 
 simple violentmonkey script to redirect form youtube to piped
