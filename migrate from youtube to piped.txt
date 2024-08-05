@@ -28,7 +28,8 @@
             '/playlist': '/playlist',
             '/channel/': '/channel',
             '/@': '/@',
-            '/results': '/results'
+            '/results': '/results',
+            '/embed': '/embed'
         };
 
         let foundMapping = false;
