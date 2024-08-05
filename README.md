@@ -4,60 +4,9 @@ simple violentmonkey script to redirect form youtube to piped
 
 # Installations 
 
+To install the userscript you need to install violentmonkey extensions 
 
-## Introduction
-The `redirect-youtube-to-piped` userscript automatically redirects YouTube links to Piped, a privacy-focused alternative. This guide will walk you through installing this userscript using Violent Monkey. The process is similar for other userscript managers.
-
-## 1. Install Violent Monkey
-
-Before installing the userscript, you need to have Violent Monkey or another userscript manager installed in your browser. Follow the installation steps below according to your browser:
-
-### For Google Chrome
-
-1. **Open Chrome**:
-   Launch the Google Chrome browser on your computer.
-
-2. **Go to the Chrome Web Store**:
-   Search for "Violent Monkey" in the Chrome Web Store.
-
-3. **Install the Extension**:
-   Click "Add to Chrome" and confirm the installation.
-
-4. **Pin to Toolbar**:
-   - Click the puzzle piece icon (Extensions) in the top right corner.
-   - Find Violent Monkey and click the pin icon next to it.
-
-### For Mozilla Firefox
-
-1. **Open Firefox**:
-   Launch Mozilla Firefox on your computer.
-
-2. **Go to the Firefox Add-ons Site**:
-   Search for "Violent Monkey" in the Firefox Add-ons website.
-
-3. **Install the Add-on**:
-   Click "Add to Firefox" and confirm the installation.
-
-4. **Pin to Toolbar**:
-   - Right-click the Violent Monkey icon in the toolbar.
-   - Select "Pin to Toolbar" if available.
-
-### For Microsoft Edge
-
-1. **Open Edge**:
-   Launch Microsoft Edge on your computer.
-
-2. **Go to the Microsoft Edge Add-ons Store**:
-   Search for "Violent Monkey" in the Edge Add-ons site.
-
-3. **Install the Extension**:
-   Click "Get" and confirm the installation.
-
-4. **Pin to Toolbar**:
-   - Click the puzzle piece icon (Extensions) in the top right corner.
-   - Find Violent Monkey and click the pin icon next to it.
-
-## 2. Install `redirect-youtube-to-piped` Userscript
+https://violentmonkey.github.io/get-it/
 
 ### Step-by-Step Instructions
 
