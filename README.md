@@ -22,7 +22,9 @@ make sure you pin the violentmonkey extensions to toolbar
 
 5. **copy this url https://raw.githubusercontent.com/wansoleh/redirect-from-youtube-to-piped/main/youtube-redirect-to-piped.user.js and input it**
 
-6. **click OK Buttons**  
+6. **click OK Buttons**
+
+7. **click Install Buttons**
 
 ## Troubleshooting
 
