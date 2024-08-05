@@ -12,15 +12,17 @@ make sure you pin the violentmonkey extensions to toolbar
 
 ### Step-by-Step Instructions
 
-1. **open violent monkey on toolbar in browser**
+1. **open violent monkey toolbar on your browser**
 
-2. **open settings icons (buttons)**
+2. **open settings icons**
 
 3. **click "+" icons**
 
-4. **click "Install from URL" button**
+4. **click "Install from URL" Buttons**
 
-5. **input the url**  
+5. **copy this url https://raw.githubusercontent.com/wansoleh/redirect-from-youtube-to-piped/main/youtube-redirect-to-piped.user.js and input it**
+
+6. **click OK Buttons**  
 
 ## Troubleshooting
 
