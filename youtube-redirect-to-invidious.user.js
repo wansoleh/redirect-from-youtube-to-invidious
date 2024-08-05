@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         YouTube Redirect to Piped
+// @name         YouTube Redirect to invidious
 // @namespace    http://tampermonkey.net/
 // @version      1.3
-// @description  Redirect various YouTube URLs to piped.video
+// @description  Redirect various YouTube URLs to invidious
 // @match        *://www.youtube.com/*
 // @match        *://youtube.com/*
 // @match        *://youtu.be/*
@@ -12,7 +12,7 @@
 (function() {
     'use strict';
     const currentUrl = new URL(window.location.href);
-    const baseUrl = 'https://piped.video';
+    const baseUrl = 'https://yewtu.be/';
     let newUrl = baseUrl;
     if (currentUrl.hostname === 'youtu.be') {
         newUrl += `/${currentUrl.pathname.substring(1)}`;
