@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Redirect to Piped
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  Redirect various YouTube URLs to piped.video
 // @match        *://www.youtube.com/*
 // @match        *://youtube.com/*
