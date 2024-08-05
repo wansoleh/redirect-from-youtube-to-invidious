@@ -57,22 +57,6 @@ Before installing the userscript, you need to have Violent Monkey or another use
    - Click the puzzle piece icon (Extensions) in the top right corner.
    - Find Violent Monkey and click the pin icon next to it.
 
-### For Opera
-
-1. **Open Opera**:
-   Launch the Opera browser on your computer.
-
-2. **Go to the Opera Add-ons Store**:
-   Search for "Violent Monkey" in the Opera Add-ons store.
-
-3. **Install the Extension**:
-   Click "Add to Opera" and confirm the installation.
-
-4. **Pin to Toolbar**:
-   - Click the Opera menu button (the Opera logo).
-   - Go to “Extensions” and find Violent Monkey.
-   - Click the pin icon next to Violent Monkey.
-
 ### For Safari (MacOS)
 
 1. **Open Safari**:
