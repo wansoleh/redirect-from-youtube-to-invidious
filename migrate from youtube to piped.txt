@@ -27,8 +27,8 @@
             '/shorts': '/shorts',
             '/playlist': '/playlist',
             '/channel/': '/channel',
-            '/@': '/@'
-            '/results': '/results',
+            '/@': '/@',
+            '/results': '/results'
         };
 
         let foundMapping = false;
