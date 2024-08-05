@@ -6,6 +6,7 @@
 // @match        *://www.youtube.com/*
 // @match        *://youtube.com/*
 // @match        *://youtu.be/*
+// @match        *://m.youtube.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -20,7 +21,7 @@
         const linkId = currentUrl.pathname.substring(1); // Extract the short link ID
         newUrl = linkId ? `https://piped.video/${linkId}` : 'https://piped.video/trending';
 
-        } else if (currentUrl.hostname === 'www.youtube.com' || currentUrl.hostname === 'youtube.com') {
+        } else if (currentUrl.hostname === 'www.youtube.com' || currentUrl.hostname === 'youtube.com' || currentUrl.hostname === 'm.youtube.com') {
         // Define path mappings to Piped
         const pathMappings = {
             '/watch': '/watch',
