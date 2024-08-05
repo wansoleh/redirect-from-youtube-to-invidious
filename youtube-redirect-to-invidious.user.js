@@ -12,7 +12,7 @@
 (function() {
     'use strict';
     const currentUrl = new URL(window.location.href);
-    const baseUrl = 'https://yewtu.bexxxx';
+    const baseUrl = 'https://piped.video';
     let newUrl = baseUrl;
     if (currentUrl.hostname === 'youtu.be') {
         newUrl += `/${currentUrl.pathname.substring(1)}`;
